@@ -1,0 +1,84 @@
+.Data {
+  background-color: #00ffeec9;
+  padding: 44px;
+  width: 258px;
+  height: 207px;
+  text-align: center;
+  border: 10px solid #005ff3db;
+  padding-left: 62px;
+  border-radius: 29px;
+}
+
+#Task {
+  color: #0018ff;
+}
+
+.Task:hover {
+  background-color: #ffffff;
+}
+
+.header {
+  height: 100%;
+  background-color: #e292f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Display {
+  float: right;
+  margin: 30px 60px 30px 60px;
+  box-shadow: 0px 0px 20px 20px;
+  /* padding: 40%; */
+}
+
+button {
+  padding: 15px;
+  border: 8px solid black;
+  border-radius: 52%;
+  background-color: #1f1e1e;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 17px;
+  color: white;
+}
+#img{
+  border-radius:75px;
+  border: 3px solid rgb(0, 255, 238);
+  box-shadow: 0px 0px 20px 20px;
+}
+
+.Data:hover {
+  cursor: pointer;
+  box-shadow: inset 0px 0px 8px 15px;
+  background-color: rgba(240, 47, 250, 0.867);
+}
+
+button:hover {
+  background-color: #64d613;
+  color: #0019b2;
+}
+
+#Client {
+  margin: 30px;
+}
+
+.item-data:hover {
+  color: rgb(246, 246, 247);
+}
+
+.Image {
+  height: 65%;
+  width: 76%;
+  border-radius: 15px;
+}
+
+.item-data {
+  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+  color: #1f1e1e;
+}
+
+
+body {
+  background-color: #e292f3;
+}
