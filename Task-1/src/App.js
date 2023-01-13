@@ -20,7 +20,7 @@ function App() {
     let h = Time.getHours();
     let m = Time.getMinutes();
     let s = Time.getSeconds();
-    let AddOn ="  "+dd + ' /' + mm + ' /' + yyyy+" "+"( "+h+"  ."+m+" . "+s+" )";
+    let AddOn ="  "+dd + ' /' + mm + ' /' + yyyy+" "+"( "+h+"  -"+m+" -"+s+" )";
 
     //ADD Item In Todos
     let NewTodoItem = {
@@ -62,7 +62,7 @@ function App() {
     let h = Time.getHours();
     let m = Time.getMinutes();
     let s = Time.getSeconds();
-    let CompletedOn = dd + ' /' + mm + ' /' + yyyy+" "+"( "+h+"  ."+m+" . "+s+" )";
+    let CompletedOn = dd + ' /' + mm + ' /' + yyyy+" "+"( "+h+"  -"+m+"  -"+s+" ");
     let filteredItem = {
       ...AllTodos[index],
       Description: Description,
