@@ -22,7 +22,6 @@ function App() {
             <input type="button" value="7" className="button" onClick={clickHandeler} />
             <input type="button" value="8" className="button" onClick={clickHandeler} />
             <input type="button" value="9" className="button" onClick={clickHandeler} />
-            {/* <input type="button" value="R" className="button" onClick={remove} /> */}
             <div className="icon">
             <FiDelete className="box-icon" onClick={remove}></FiDelete>
             </div>
