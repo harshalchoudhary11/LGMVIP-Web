@@ -1,0 +1,97 @@
+
+.calc{
+    width: 320px;
+    margin: -75px auto;
+
+}
+body{
+    background-color:wheat;
+}
+#Answer::placeholder{
+    color: #e6ff00;
+}
+h1{
+    font-size: 35px;
+    margin-left: 4px;
+    margin-top: 7pc;
+    text-align: center;
+    color: teal;
+    background-color: yellow;
+    border-radius: 21px;
+    box-shadow: 0px 0px 20px 7px;
+}
+.icon{
+    background: #333;
+    height: 82px;
+    width: 79px;
+    color: white;
+    font-size: 39px;
+    border: 2px solid #5600ff;
+    float: left;
+    border-radius: 25px;
+    box-shadow: inset 0px 0px 8px 0px;
+
+}
+.icon:hover{
+    background-color: #caed07;
+    color: black;
+    border: 2px solid #fa0239;
+    box-shadow: inset 0px 0px 14px 0px;
+}
+.box-icon{
+    width: 44px;
+    margin-left: 14px;
+    height: 76px;
+    color: rgb(255, 255, 255);
+}
+.box-icon:hover{
+    color: rgb(246, 0, 0);
+}
+#Answer{
+    background-color: #232020c9;
+    padding: 10px;
+    font-size: 39px;
+    text-align: right;
+    height: 48px;
+    overflow: auto;
+    color: #e6ff00;
+    border-radius: 18px;
+    padding-top: 15px;
+    width: 294px;
+    border: 3px solid #214ff5;
+    box-shadow: inset 0px 0px 8px 0px;
+}
+.button{
+    background: #333;
+    height: 86px;
+    width: 79px;
+    color: white;
+    font-size: 39px;
+    border: 2px solid #5600ff;
+    float: left;
+    border-radius: 25px;
+    box-shadow:inset 0px 0px 8px 0px;
+}
+.button:hover{
+    background-color: #00ff45;
+    color: black;
+    border: 2px solid #fa0239;
+    box-shadow: inset 0px 0px 8px 0px;
+}
+.button1{
+    width: 120px;
+}
+.Clear{
+    background: #333;
+    height: 86px;
+    color: white;
+    font-size: 39px;
+    border: 2px solid #5600ff;
+    float: left;
+    border-radius: 25px;
+    box-shadow: inset 0px 0px 8px 0px;
+    width: 120px;
+}
+.Clear:hover{
+  background-color: #fa0239;
+}
