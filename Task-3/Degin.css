@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace';
+    font-family: 'Courier New', Courier, monospace';
+
 }
 
 form button {
@@ -61,6 +62,18 @@ body {
     text-align: center;
 }
 
+tr {
+    background: rgb(173 238 0);
+    border: 2px solid;
+    box-shadow: 0px 1px 10px 4px;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    line-height: 1.6rem;
+    font-family: sans-serif;
+}
 
 h1 {
     font-size: 50px;
@@ -107,6 +120,11 @@ textarea:valid~label {
 }
 
 
+th {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 form button:hover {
     background: linear-gradient(rgb(0, 255, 0), rgb(237, 77, 114));
     color: rgb(255, 255, 255);
@@ -133,6 +151,14 @@ input[type='file'] {
     font-size: 20px;
 }
 
+
+img {
+    width: 246px;
+    margin: 2px 0px 0px 107px;
+    border: 1px solid black;
+    border-radius: 45px;
+}
+
 .Input-Select .Label {
     font-size: 20px;
     font-family: initial;
@@ -149,6 +175,9 @@ input[type='file'] {
     height: 80%;
     background: rgb(0, 0, 0);
 }
+td {
+    font-size: 16px;
+}
 
 .Table {
     width: 50%;
@@ -156,6 +185,11 @@ input[type='file'] {
     text-align: center;
     padding: 10px 20px;
     overflow: auto;
+}
+
+tr:hover {
+    background: rgb(217, 0, 255);
+    color: white;
 }
 
 .scroll {
@@ -182,38 +216,4 @@ th,
 td {
     padding: 10px 20px;
     border-bottom: 1.6px solid rgb(220, 22, 22);
-}
-
-th {
-    font-size: 20px;
-    font-weight: 600;
-}
-
-td {
-    font-size: 16px;
-}
-
-tr {
-    background: rgb(173 238 0);
-    border: 2px solid;
-    box-shadow: 0px 1px 10px 4px;
-}
-
-tr:hover {
-    background: rgb(217, 0, 255);
-    color: white;
-}
-
-p {
-    font-size: 18px;
-    letter-spacing: 1.2px;
-    line-height: 1.6rem;
-    font-family: sans-serif;
-}
-
-img {
-    width: 246px;
-    margin: 2px 0px 0px 107px;
-    border: 1px solid black;
-    border-radius: 45px;
 }
